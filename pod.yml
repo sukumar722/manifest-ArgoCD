@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mypod-2
+  name: mypod
 spec:
   containers:
-    - name: cont-3
-      image: shaikmustafa/cycle
+    - name: cont
+      image: nginx
       ports:
        - containerPort: 80  
